@@ -11,10 +11,7 @@ module.exports={
 	},
 	output: {
 		path: path.join(__dirname,'dist'),
-		// publicPath: '/',
-		// filename: 'build.js?v=1.0.0',
-		// filename: 'build.js',
-		filename: 'js/[chunkhash].js'
+		filename: '[name]-[hash].js'
 	},
 	module:{
 		loaders: [
