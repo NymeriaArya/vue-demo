@@ -1,0 +1,16 @@
+body{
+	background-color: #fff !important; 
+}
+.tmpl{
+	margin-bottom: 50px;
+}
+	
+.mui-table-view-cell.mui-media.mui-col-xs-4.mui-col-sm-3 figure{
+	height: 100px;
+	float: left;
+	width: 100px;
+	margin: 0;
+}
+.mui-table-view-cell.mui-media.mui-col-xs-4.mui-col-sm-3 figure img{
+	height: 100px !important;
+}
